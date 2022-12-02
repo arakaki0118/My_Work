@@ -4,9 +4,141 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My Work</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>My Work</h1>
+      </div>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#"><img src="./images/icon-instagram.png" alt="" class="instagram"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- key_visual -->
+    <section id="key_visual">
+      <picture>
+        <source media="(min-width: 600px)" srcset="./images/mainvisual-pc.jpeg">
+        <img src="./images/mainvisual-sp.jpeg" alt="">
+      </picture>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+      <h1>About</h1>
+      <h2>Xxxxx Ashley</h2>
+      <div class="info">
+        <p>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</p>
+        <p>tel:000-0000-0000</p>
+        <p>url:www.xxxxxx.jp</p>
+        <p>mail:xxx@xxxxxx.jp</p>
+      </div>
+      <div class="info_text">
+        <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+    </section>
+
+    <!-- wotks -->
+    <section id="works">
+      <h1>Works</h1>
+      <div class="box">
+        <div class="top-box">
+          <img src="./images/works1.jpeg" alt="">
+          <img src="./images/works2.jpeg" alt="">
+          <img src="./images/works3.jpeg" alt="">
+        </div>
+        <div class="bottom-box">
+          <img src="./images/works4.jpeg" alt="">
+          <img src="./images/works5.jpeg" alt="">
+          <img src="./images/works6.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- news -->
+    <section id="news">
+      <h1>News</h1>
+      <div>
+        <dl class="news_list">
+          <dt>
+            2020.XX.XX
+          </dt>
+          <dd>
+            デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
+          </dd>
+          <dt>
+            2020.XX.XX
+          </dt>
+          <dd>
+            ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。
+          </dd>
+          <dt>
+            2019.XX.XX
+          </dt>
+          <dd>
+            【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+          </dd>
+          <dt>
+            2019.XX.XX
+          </dt>
+          <dd>
+            デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。
+          </dd>
+          <dt>
+            2019.XX.XX
+          </dt>
+          <dd>
+            【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+          </dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <h1>Contact</h1>
+      <form class="contact_form">
+        <dl class="contact_list">
+          <dt>
+            <label for="name_form">NAME</label>
+          </dt>
+          <dd>  
+            <input type="text" id="name_form" name="text" placeholder="山田　太郎">
+          </dd>
+          <dt>
+            <label for="email_form">E-mail</label>
+          </dt>
+          <dd>
+            <input type="email" id="email_form" placeholder="メールアドレスを入力してください。">
+          </dd>
+          <dt>
+            <label for="message_form">MESSAGE</label>
+          </dt>
+          <dd>
+            <textarea name="" id="message_form" cols="30" rows="10" placeholder="メッセージをご記入ください。"></textarea>
+          </dd>
+        </dl>
+        <div class="submit">
+          <button type="submit">送信</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2020 My Work</p>
+  </footer>
 </body>
 </html>
